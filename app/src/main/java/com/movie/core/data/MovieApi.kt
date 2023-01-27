@@ -1,4 +1,8 @@
 package com.movie.core.data
 
-class MovieApi {
+interface MovieApi {
+
+    companion object{
+        const val BASE_URL=""
+    }
 }
